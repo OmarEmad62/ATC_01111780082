@@ -81,7 +81,7 @@ const EventForm = () => {
           });
           
           if (event.image && event.image !== 'default-event.jpg') {
-            setImagePreview(`http://localhost:5000/uploads/${event.image}`);
+           setImagePreview(event.image);
           }
         } catch (error) {
           console.error('Error fetching event:', error);
