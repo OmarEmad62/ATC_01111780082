@@ -19,7 +19,7 @@ type AuthContextType = {
   logout: () => void;
   loading: boolean;
 };
-
+const baseUrl = import.meta.env.VITE_API_URL;
 const AuthContext = createContext<AuthContextType | undefined>(undefined);
 
 export const AuthProvider = ({ children }: { children: ReactNode }) => {
@@ -47,7 +47,7 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
       setLoading(true);
       
       // In a real app, this would be an API call
-      const response = await fetch('http://localhost:5000/api/auth/login', {
+      const response = await fetch(`${baseUrl}/auth/login`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -91,7 +91,7 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
       setLoading(true);
       
       // In a real app, this would be an API call
-      const response = await fetch('http://localhost:5000/api/auth/register', {
+      const response = await fetch(`${baseUrl}/auth/register`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
