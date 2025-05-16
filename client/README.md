@@ -9,6 +9,7 @@ This is the frontend of the Event Booking System built with **React**, **Vite**,
 - Booking functionality
 - Admin interface for managing events
 - Responsive UI
+- Dark mode
 
 ## 🔧 Technologies
 
