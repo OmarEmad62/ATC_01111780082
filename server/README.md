@@ -22,12 +22,9 @@ This is the backend of the Event Booking System built with **Node.js**, **Expres
 
 ```
 server/
-├── config/            # Configuration files
-├── controllers/       # Route controllers
 ├── middlewares/       # Authentication and error handling
 ├── models/            # Mongoose schemas
 ├── routes/            # Express routes
-├── utils/             # Helper functions
 ├── server.js          # App entry point
 └── .env
 ```
