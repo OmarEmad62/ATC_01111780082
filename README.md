@@ -5,6 +5,15 @@ A full-stack Event Booking System that enables users to browse, book, and manage
 
 🌐 **Live Demo**: [https://event-booking-system-1-k5mm.onrender.com/](https://event-booking-system-1-k5mm.onrender.com/)
 
+🔐 **Admin Login**:
+Email: `admin@gmail.com`
+Password: `admin123`
+
+---
+
+Let me know if you want to include user credentials or add features, tech stack icons, or a GIF/preview image for better presentation.
+
+
 ---
 
 ## 🗂️ Project Structure
